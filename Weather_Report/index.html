@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <title>Weather</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/cloudy.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <h1>Weather Dashboard</h1>
+    <!-- Heading -->
+    <h1>Weather-Report</h1>
     <div class="container">
+        <!-- Left Side -->
         <div class="weather-input">
             <h3>Enter a City Name</h3>
             <input class="city-input" type="text" placeholder="Berlin, London, Tokyo etc.">
@@ -19,7 +22,9 @@
             <div class="separator"></div>
             <button class="location-btn">Use Current Location</button>
         </div>
+        <!-- Right Side -->
         <div class="weather-data">
+            <!-- Today´s weather -->
             <div class="current-weather">
                 <div class="details">
                     <h2>_______ ( ______ )</h2>
@@ -28,6 +33,7 @@
                     <h6>Humidity: __%</h6>
                 </div>
             </div>
+            <!-- Weather for the next 5 days -->
             <div class="days-forecast">
                 <h2>5-Day Forecast</h2>
                 <ul class="weather-cards">
